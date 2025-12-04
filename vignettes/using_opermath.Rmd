@@ -1,0 +1,21 @@
+---
+title: "using_opermath"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{using_opermath}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(opermath)
+sum_vector(c(1, 2, 3))
+mean_vector(c(1, 2, NA))
+```

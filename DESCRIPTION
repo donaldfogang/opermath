@@ -1,0 +1,21 @@
+Package: opermath
+Type: Package
+Title: Simple Mathematical Operations (Sum and Mean)
+Version: 1.0
+Authors@R: person("Donald", "Fogang", 
+    email = "donaldfogang3@gmail.com", role = c("aut", "cre"))
+Description: A basic example package containing two functions: sum_vector() and mean_vector().
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Depends: R (>= 4.0.0)
+Imports:
+    stats
+LazyData: true
+RoxygenNote: 7.3.3
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr
