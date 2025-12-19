@@ -17,5 +17,5 @@ Computes the sum of all elements in a numeric vector.
 }
 \examples{
 sum_vector(c(1, 2, 3))
-sum_vector(c(NA, 1, 2))  # returns NA if NA present
+sum_vector(c(NA, 7, 2))  # returns NA if NA present
 }

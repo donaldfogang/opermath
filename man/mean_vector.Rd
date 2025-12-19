@@ -16,6 +16,6 @@ Numeric scalar: the mean of x excluding NA values.
 Computes the mean of a numeric vector while removing NA values.
 }
 \examples{
-mean_vector(c(1, 2, 3))
+mean_vector(c(1, 5, 3))
 mean_vector(c(1, 2, NA))
 }

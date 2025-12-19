@@ -5,7 +5,7 @@
 #' @param x Numeric vector.
 #' @return Numeric scalar: the mean of x excluding NA values.
 #' @examples
-#' mean_vector(c(1, 2, 3))
+#' mean_vector(c(1, 5, 3))
 #' mean_vector(c(1, 2, NA))
 #' @export
 mean_vector <- function(x) {
