@@ -16,6 +16,6 @@ Numeric scalar: the sum of x.
 Computes the sum of all elements in a numeric vector.
 }
 \examples{
-sum_vector(c(1, 2, 3))
+sum_vector(c(9, 2, 3))
 sum_vector(c(NA, 7, 2))  # returns NA if NA present
 }

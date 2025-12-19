@@ -17,5 +17,5 @@ Computes the mean of a numeric vector while removing NA values.
 }
 \examples{
 mean_vector(c(1, 5, 3))
-mean_vector(c(1, 2, NA))
+mean_vector(c(10, 2, NA))
 }
